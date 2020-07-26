@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3e92fba4d7.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <h3>TO-DO <span>LIST</span></h3><hr class="hr"/>
+        <div>
+            <input id="input" name="text" placeholder="What you want to do?" />
+            <button><i id="addBtn" class="showBtn" onclick="addTodo()" class="fa fa-plus" aria-hidden="true">ADD TODO</i></button>
+            <button><i id="delAll" class="showBtn" onclick="delAll()">DELETE ALL</i></button>
+
+        </div>
+        <ul id="list">
+
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
